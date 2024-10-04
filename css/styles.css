@@ -1,0 +1,73 @@
+body {
+    background-image: linear-gradient(black, powderblue);
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: 100% 100%;
+    height: 140vh;
+    width: 98vw;
+}
+table {
+    margin: auto;
+    margin-top: 40px;
+    width: 800px;
+    height: 400px;
+    border-collapse: collapse;
+}
+th {
+    text-align: center;
+    color: aliceblue;
+    height: 30px;
+}
+td {
+    background-color: aliceblue
+}
+.poster {
+    width: 40%;
+    height: 40%;
+}
+.acteur {
+    width: 25%;
+}
+.personnages {
+    color: darkslategray;
+    font-size: small;
+    margin: 0;
+}
+.photoActeur {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin: 10px;
+    margin-left: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+   }
+.titre {
+    font-size: 25px;
+}
+.top {
+    font-size: x-large;
+    height: 30px;
+}
+#Evans {
+    background-image: url(../images/Chris_Evans.png);
+}
+#Hemsworth {
+    background-image: url(../images/Chris_Hemsworth.png);
+}
+#Renner {
+    background-image: url(../images/Jeremy_Renner.png);
+}
+#Ruffalo {
+    background-image: url(../images/Mark_Ruffalo.png);
+}
+#Downey {
+    background-image: url(../images/Robert_Downey_Jr..png);
+}
+#Johansson {
+    background-image: url(../images/Scarlett_Johansson.png);
+}
+#Hiddleston {
+    background-image: url(../images/Tom_Hiddleston.png);
+}
